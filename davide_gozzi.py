@@ -5,8 +5,9 @@ code = {
         '-....': '6',  '--...': '7',  '---..': '8',
         '----.': '9'
         }
+            a=''
+
 while(button_a.get_presses()+button_b.get_presses()<5):
-    a=''
     if(button_a.is_pressed()):
         a=a+'.'
     else(butto_b.is_pressed()):
